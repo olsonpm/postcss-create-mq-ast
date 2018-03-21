@@ -1,0 +1,44 @@
+{
+  "name": "postcss-create-mq-ast",
+  "version": "0.1.0",
+  "description": "Attaches a media query ast to AtRules",
+  "main": "index.js",
+  "keywords": [
+    "postcss",
+    "plugin",
+    "media query",
+    "ast"
+  ],
+  "author": "philip olson",
+  "license": "SEE LICENSE IN license.txt",
+  "homepage": "https://github.com/olsonpm/postcss-create-mq-ast",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/postcss-create-mq-ast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olsonpm/postcss-create-mq-ast/issues"
+  },
+  "dependencies": {
+    "css-tree": "^1.0.0-alpha.28",
+    "postcss": "^6.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-personal": "github:olsonpm/eslint-config-personal",
+    "prettier": "^1.11.1"
+  },
+  "scripts": {
+    "test": "aint no tests yet!"
+  },
+  "eslintConfig": {
+    "extends": [
+      "personal"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  }
+}
