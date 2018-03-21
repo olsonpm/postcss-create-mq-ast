@@ -52,7 +52,7 @@ Given the following css
 }
 ```
 
-[Here's a snippet]('./at-rule-ast-example.json') of the resulting AtRule node
+[Here's a snippet](./at-rule-ast-example.json) of the resulting AtRule node
 
 *Keep in mind the csstree AST isn't pure json.  They override `toJSON` to provide that structure when printed*
 
