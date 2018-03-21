@@ -1,6 +1,6 @@
 {
   "name": "postcss-create-mq-ast",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Attaches a media query ast to AtRules",
   "main": "index.js",
   "keywords": [

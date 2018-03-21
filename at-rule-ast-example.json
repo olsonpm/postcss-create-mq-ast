@@ -16,7 +16,7 @@
     "input": {
       "css":
         "@media (min-width: 500px) {\n  body {\n    background-color: blue;\n  }\n}\n",
-      "file": "/home/phil/tmp/npm-tmp/delme/test.css"
+      "file": "/path/to/test.css"
     },
     "end": {
       "line": 5,
@@ -48,7 +48,7 @@
             "input": {
               "css":
                 "@media (min-width: 500px) {\n  body {\n    background-color: blue;\n  }\n}\n",
-              "file": "/home/phil/tmp/npm-tmp/delme/test.css"
+              "file": "/path/to/test.css"
             },
             "end": {
               "line": 3,
@@ -67,7 +67,7 @@
         "input": {
           "css":
             "@media (min-width: 500px) {\n  body {\n    background-color: blue;\n  }\n}\n",
-          "file": "/home/phil/tmp/npm-tmp/delme/test.css"
+          "file": "/path/to/test.css"
         },
         "end": {
           "line": 4,
@@ -82,7 +82,7 @@
   "preludeCssTreeAst": {
     "type": "AtrulePrelude",
     "loc": {
-      "source": "/home/phil/tmp/npm-tmp/delme/test.css",
+      "source": "/path/to/test.css",
       "start": {
         "offset": 0,
         "line": 1,
@@ -98,7 +98,7 @@
       {
         "type": "MediaQueryList",
         "loc": {
-          "source": "/home/phil/tmp/npm-tmp/delme/test.css",
+          "source": "/path/to/test.css",
           "start": {
             "offset": 0,
             "line": 1,
@@ -114,7 +114,7 @@
           {
             "type": "MediaQuery",
             "loc": {
-              "source": "/home/phil/tmp/npm-tmp/delme/test.css",
+              "source": "/path/to/test.css",
               "start": {
                 "offset": 0,
                 "line": 1,
@@ -130,7 +130,7 @@
               {
                 "type": "MediaFeature",
                 "loc": {
-                  "source": "/home/phil/tmp/npm-tmp/delme/test.css",
+                  "source": "/path/to/test.css",
                   "start": {
                     "offset": 0,
                     "line": 1,
@@ -146,7 +146,7 @@
                 "value": {
                   "type": "Dimension",
                   "loc": {
-                    "source": "/home/phil/tmp/npm-tmp/delme/test.css",
+                    "source": "/path/to/test.css",
                     "start": {
                       "offset": 12,
                       "line": 1,
