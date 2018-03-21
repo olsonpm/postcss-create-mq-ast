@@ -4,8 +4,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 - [What is it](#what-is-it)
-- [Why create it](#why-create-it)
+- [Install](#install)
 - [Usage](#usage)
+- [Why create it](#why-create-it)
 - [Example](#example)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -13,6 +14,11 @@
 ## What is it
 
 This very simple plugin walks through media [AtRules](http://api.postcss.org/AtRule.html) and attaches the property `preludeCssTreeAst`. This property is an instance of [AtrulePrelude](https://github.com/csstree/csstree/blob/master/docs/ast.md#atruleprelude) and can be traversed via the apis made available by [csstree](https://github.com/csstree/csstree).
+
+
+## Install
+
+`npm install postcss-create-mq-ast`
 
 
 ## Usage
