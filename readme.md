@@ -15,6 +15,17 @@
 This very simple plugin walks through media [AtRules](http://api.postcss.org/AtRule.html) and attaches the property `preludeCssTreeAst`. This property is an instance of [AtrulePrelude](https://github.com/csstree/csstree/blob/master/docs/ast.md#atruleprelude) and can be traversed via the apis made available by [csstree](https://github.com/csstree/csstree).
 
 
+## Usage
+
+Just the same as any other postcss plugin
+
+```js
+const createMqAst = require('postcss-create-mq-ast')
+postcss([createMqAst()])
+  .process(...)
+```
+
+
 ## Why create it
 
 I needed an ast in order to create [postcss-remove-duplicate-mq](https://github.com/olsonpm/postcss-remove-duplicate-mq)
@@ -25,17 +36,6 @@ property on the media [AtRule](http://api.postcss.org/AtRule.html)
 There exists the [postcss-media-query-parser](https://www.npmjs.com/package/postcss-media-query-parser) but that doesn't use the exposed ast structures provided by postcss (possibly because they didn't exist when it was written). It also is outdated and not maintained.
 
 I chose to use csstree's ast because postcss has plans to utilize csstree's parser down the road.
-
-
-## Usage
-
-Just the same as any other postcss plugin
-
-```js
-const createMqAst = require('postcss-create-mq-ast')
-postcss([createMqAst()])
-  .process(...)
-```
 
 
 ## Example
